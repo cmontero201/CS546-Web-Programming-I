@@ -1,0 +1,80 @@
+h1{
+    background-color: white;
+    text-align: center;
+    font-size: 36pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+h2{
+    background-color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+p{
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 125px;
+    text-align: center;
+    font-size: 24;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+ul{
+    margin-right: 100px
+}
+body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.details{
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.not-found{
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ 
+a{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: chocolate
+}
+dl{
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+dt{
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+dd{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

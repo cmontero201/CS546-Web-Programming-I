@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<section>
+
+    <h1>{{title}}</h1>
+    
+    {{#if personList}}
+    <div>
+        <ul>      
+            {{#each personList}}
+            <li>
+                <a href="/personInfo/{{id}}"> {{firstName}} {{lastName}} </a>
+            </li>
+            {{/each}}
+            
+        </ul>
+            {{else}}
+            <p class="not-found">We're sorry, but no results were found for {{personName}}.</p>  
+    </div>
+    {{/if}}
+    <div>
+        <a href="/"> Search Again </a>
+    </div>
+</section>

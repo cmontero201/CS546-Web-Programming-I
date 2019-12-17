@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<section>
+
+  <h1> {{ title }} </h1>
+  
+  <div class = "personInfo">
+    
+    <h2> {{ personInfo.firstName }} {{ personInfo.lastName }} </h2>
+    
+    <dl>
+      <dt> ID </dt>
+      <dd> {{ personInfo.id }} </dd>
+      <dt> First Name </dt>
+      <dd> {{ personInfo.firstName }} </dd>
+      <dt> Last Name </dt>
+      <dd> {{ personInfo.lastName }} </dd>
+      <dt> Address </dt>
+      <dd> {{ personInfo.address }} </dd>
+      <dt> Postal Code </dt>
+      <dd> {{ personInfo.zip }} </dd>
+      <dt> Phone </dt>
+      <dd> {{ personInfo.phone }} </dd>
+      <dt> SSN </dt>
+      <dd> {{ personInfo.ssn }} </dd>
+    </dl> 
+
+    <li>
+      <a href="/"><button> New Search </button></a> 
+    </li>
+
+  </div>
+
+</section>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> LOGIN LAB </title>
+        <link rel = "stylesheet" href = "/public/site.css">
+
+    </head>
+    
+    <body>
+        {{#if success_messages }}
+        <div class="alert alert-success">{{success_messages}}</div>
+        {{/if}}
+        
+        {{#if error_messages }}
+        <div class="alert alert-danger">{{error_messages}}</div>
+        {{/if}}
+        
+        <div class="container">
+            {{{body}}}
+        </div>
+    </body>
+</html>

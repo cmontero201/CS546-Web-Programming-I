@@ -1,0 +1,21 @@
+{
+  "name": "cs-546-lab-7",
+  "version": "1.0.0",
+  "description": "CS-546 Lab 7",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node ./tasks/seed.js",
+    "start": "node index.js"
+  },
+  "author": "Christian Montero 10442644",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "guid": "0.0.12",
+    "mongodb": "^3.2.7",
+    "uuid": "^3.3.2"
+  }
+}
