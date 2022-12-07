@@ -11,7 +11,7 @@
   "author": "Christian Montero 10442644",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongodb": "^3.2.7",
     "node-uuid": "^1.4.8"
   }
